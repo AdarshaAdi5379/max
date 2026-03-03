@@ -1,4 +1,4 @@
-import { cookies } from "next/server";
+import { cookies } from "next/headers";
 import { randomBytes } from "crypto";
 
 const SESSION_COOKIE = "admin_session";
