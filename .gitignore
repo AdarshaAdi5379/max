@@ -37,7 +37,44 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# environment variables
+# environment variables (SENSITIVE - NEVER COMMIT)
 .env
 .env.local
 .env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# secrets and credentials
+.DS_Store
+.AppleDouble
+.LSOverride
+*.key
+*.pem
+*.crt
+
+# IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+Thumbs.db
+.env.*.swp
+*.swo
+*~
+
+# logs
+logs/
+*.log
+
+# temporary files
+tmp/
+temp/
+*.tmp
+
+# distribution/build outputs
+dist/
+build/
